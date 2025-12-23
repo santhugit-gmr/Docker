@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colorful Sample Page</title>
+    <!-- Internal CSS can also be defined here -->
+    <style>
+        body {
+            font-family: sans-serif;
+            background-color: #f0f8ff; /* AliceBlue background for the whole page */
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #ffffff; /* White background for the content area */
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: rgb(0, 0, 255); /* Blue text color using RGB values */
+        }
+        p {
+            color: #4d4d4f; /* Dark gray text color using a Hex code */
+        }
+        .highlight {
+            background-color: hsla(30, 100%, 50%, 0.5); /* Semi-transparent orange background using HSLA */
+            padding: 10px;
+            border: 1px solid #ff6347; /* Tomato-colored border using Hex code */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1 style="color: dodgerblue;">Welcome to Our Colorful Page</h1> <!-- Inline CSS for Dodger Blue heading -->
+        
+        <p>
+            This is a sample `index.html` file demonstrating different ways to use colors with HTML and CSS. Colors can be specified using **color names**, **hex codes**, **RGB**, or **HSL** values.
+        </p>
+
+        <div class="highlight">
+            <p style="color: maroon;">
+                This section uses internal CSS for its background color (HSLA) and has text with an inline CSS color name (Maroon).
+            </p>
+        </div>
+
+        <h2 style="color: #800080;">Color Examples</h2> <!-- Purple heading using a Hex code -->
+        <ul>
+            <li style="color: red;">List item with the color name "red".</li>
+            <li style="color: rgb(0, 128, 0);">List item with the RGB value for "green".</li>
+            <li style="color: hsl(240, 100%, 50%);">List item with the HSL value for "blue".</li>
+        </ul>
+    </div>
+
+</body>
+</html>
